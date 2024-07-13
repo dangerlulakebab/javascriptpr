@@ -26,3 +26,10 @@ let spaceship = {
 for (let crewMember in spaceship.crew){
   console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`)
 }
+
+console.log()
+
+
+for (let crewName in spaceship.crew){
+  console.log(`${spaceship.crew[crewName].name}: ${spaceship.crew[crewName].degree}`)
+}
